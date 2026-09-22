@@ -23,9 +23,13 @@ class ClasseB:
     def MB2(self):
         print("MB2")
 
+    def MB3(self):
+        print("MB3")
+
 
 if __name__ == "__main__":
     obj = ClasseB(20, 2.71)
     obj.MB1()
     obj.MB2()
+    obj.MB3()
     print(f"B1 = {obj.getB1()}, B2 = {obj.getB2()}")

@@ -23,9 +23,13 @@ class ClasseC:
     def MC2(self):
         print("MC2")
 
+    def MC3(self):
+        print("MC3")
+
 
 if __name__ == "__main__":
     obj = ClasseC("texto exemplo", 42)
     obj.MC1()
     obj.MC2()
-    print(f"C1 = {obj.getC1()}, C2 = {obj.
+    obj.MC3()
+    print(f"C1 = {obj.getC1()}, C2 = {obj.getC2()}")
