@@ -23,9 +23,13 @@ class ClasseA:
     def MA2(self):
         print("MA2")
 
+    def MA3(self):
+        print("Alteração a classe A partir do clone")
+
 
 if __name__ == "__main__":
     obj = ClasseA(10, 3.14)
     obj.MA1()
     obj.MA2()
+    obj.MA3()
     print(f"A1 = {obj.getA1()}, A2 = {obj.getA2()}")
