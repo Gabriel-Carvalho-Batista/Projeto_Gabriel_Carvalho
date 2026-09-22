@@ -23,9 +23,13 @@ class ClasseD:
     def MD2(self):
         print("MD2")
 
+    def MD3(self):
+        print("MD3")
+
 
 if __name__ == "__main__":
     obj = ClasseD(7, 9.5)
     obj.MD1()
     obj.MD2()
+    obj.MD3()
     print(f"D1 = {obj.getD1()}, D2 = {obj.getD2()}")
